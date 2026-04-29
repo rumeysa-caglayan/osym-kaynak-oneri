@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>osym kaynak onerisi</title>
+</head>
+
+<body>
+<table width="1494" height="819" border="1">
+  <tr>
+    <td height="258" colspan="3" valign="top"><blockquote>
+      <blockquote>
+        <blockquote>
+          <blockquote>
+            <blockquote>
+              <blockquote>
+                <blockquote>
+                  <blockquote>
+                    <blockquote>
+                      <p>&nbsp;</p>
+                      <blockquote>
+                        <blockquote>
+                          <p><img src="images.png" width="530" height="183" /></p>
+                        </blockquote>
+                      </blockquote>
+                    </blockquote>
+                  </blockquote>
+                </blockquote>
+              </blockquote>
+            </blockquote>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+    </blockquote></td>
+  </tr>
+  <tr>
+    <td width="396" height="553" valign="top" bgcolor="#CC6600"><blockquote>
+      <p>&nbsp;</p>
+      <p><img src="yks-2026-sayac-tyt-2026-ne-zaman.jpg" width="308" height="195" /></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      </blockquote>
+    <p><marquee direction="left" scrollamount="5"><font size="10"><b>YKS 2026</b></font></marquee>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p><marquee behavior="scroll" direction="left" scrollamount="5"
+onmouseover="this.stop();" 
+onmouseout="this.start();"
+style="font-size:22px; font-weight:bold;">
+
+<span id="sayac"></span>
+
+</marquee>
+
+<script>
+var hedef = new Date("Jun 21, 2026 10:15:00").getTime();
+
+setInterval(function() {
+  var simdi = new Date().getTime();
+  var fark = hedef - simdi;
+
+  var gun = Math.floor(fark / (1000 * 60 * 60 * 24));
+  var saat = Math.floor((fark % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var dakika = Math.floor((fark % (1000 * 60 * 60)) / (1000 * 60));
+
+  document.getElementById("sayac").innerHTML =
+    "⏳ YKS 2026: " + gun + " gün " + saat + " saat " + dakika + " dk kaldı";
+}, 1000);
+</script>&nbsp;</p></td>
+    <td width="1082" colspan="2" bgcolor="#FFFFFF"><div style="background-color: #f1f1f1; padding: 10px; margin-bottom: 20px;">
+    <a href="#" style="margin-right: 15px; text-decoration: none; font-weight: bold; color: #333;">Ana Sayfa</a>
+    <a href="tyt.html" style="margin-right: 15px; text-decoration: none; font-weight: bold; color: #333;">TYT</a>
+    <a href="ayt.html" style="margin-right: 15px; text-decoration: none; font-weight: bold; color: #333;">AYT</a>
+    
+    <select onchange="location = this.value;" style="padding: 5px;">
+        <option value="">Sınavlar</option>
+        <option value="ales.html">ALES</option>
+        <option value="dgs.html">DGS</option>
+        <option value="kpss.html">KPSS</option>
+        <option value="tyt-ayt.html">TYT-AYT</option>
+    </select>
+</div>
+<h3 style="color: #CC6600; border-bottom: 2px solid #CC6600;">TYT HAZIRLIK KİTAPLARI</h3>
+
+<table width="100%" border="0" cellspacing="10">
+  <tr>
+    <td align="center" valign="top" width="25%"><img src="111752659943.jpg" width="110" height="110" /><br>
+        <strong>Paragraf Soru Bankası</strong><br>
+        <font color="red">300 TL</font>
+    </td>
+    
+    <td align="center" valign="top" width="25%"><img src="1669119099.png" width="110" height="110" /><br>
+        <strong>Matematik Denemeleri</strong><br>
+        <font color="red">270 TL</font>
+    </td>
+
+    <td align="center" valign="top" width="25%"><img src="1521641010.jpg" width="110" height="110" /><br>
+        <strong>Problem Çözümleri</strong><br>
+        <font color="red">250 TL</font>
+    </td>
+  </tr>
+</table></td>
+  </tr>
+</table>
+</body>
+</html>
