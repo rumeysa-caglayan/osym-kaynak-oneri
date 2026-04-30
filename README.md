@@ -3,7 +3,7 @@
 Bu proje, TYT, AYT, KPSS gibi sınavlara hazırlanan öğrenciler için kaynak önerileri sunan bir web sitesidir.
 
 ## 🚀 Özellikler
-- TYT, AYT, KPSS gibi sınavlara göre kategori sistemi
+- TYT, AYT, KPSS gibi sınavlara göre kategori sistemi 
 - Kitap önerileri ve görseller
 - Basit ve kullanıcı dostu arayüz
 - Sayfa bazlı içerik yapısı
